@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef14946a-6bfd-4000-8898-65c9137c0eaf" name="Default Changelist" comment="">
+    <list default="true" id="ef14946a-6bfd-4000-8898-65c9137c0eaf" name="Default Changelist" comment="NeedU Prueba">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/Ventana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ventana.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +32,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="iniciarVentana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iniciarVentana" />
+      <module name="NeedU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.iniciarVentana" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602251114622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NeedU Prueba">
+      <created>1602251740630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602251740630</updated>
+    </task>
+    <task id="LOCAL-00003" summary="NeedU Prueba">
+      <created>1602251966379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602251966379</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,7 +91,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -68,20 +101,49 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
+    <MESSAGE value="NeedU Prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="NeedU Prueba" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1602250979265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1602250979265" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1602251113083">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602251873962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602251113083" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602251525351">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602251873962" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1602318225407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602251525351" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602318225407" />
+    <state width="1323" height="76" key="GridCell.Tab.0.bottom" timestamp="1602315098290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602315098290" />
+    <state width="1323" height="76" key="GridCell.Tab.0.center" timestamp="1602315098290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602315098290" />
+    <state width="1323" height="76" key="GridCell.Tab.0.left" timestamp="1602315098290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602315098290" />
+    <state width="1323" height="76" key="GridCell.Tab.0.right" timestamp="1602315098290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602315098290" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602318144318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602318144318" />
+    <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602251864597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1602251864597" />
+    <state x="397" y="155" key="git4idea.merge.GitPullDialog" timestamp="1602252029019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="397" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1602252029019" />
   </component>
 </project>

@@ -5,9 +5,7 @@ import java.io.File;
 
 public class VentanaRegistrarse extends JFrame
 {
-    public static void main(String[] args){
-        new VentanaRegistrarse();
-    }
+
 
     private JLabel lblRegistrarse;
     private JLabel lblNombre;
@@ -76,7 +74,8 @@ public class VentanaRegistrarse extends JFrame
 
                 if(contrasena.equals(confirmarContrasena)){
                     JOptionPane.showMessageDialog(VentanaRegistrarse.this,"REGISTRADO CON EXITO");
-
+                    new PantallaUsuario();
+                    setVisible(false);
                 }else{
                     JOptionPane.showMessageDialog(VentanaRegistrarse.this,"Contrasena y Confirmar Contrasena NO coinciden");
 

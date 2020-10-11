@@ -216,9 +216,11 @@ public class InicioSesion extends JFrame {
 
         if (correo.equals("afernandezpacheco@icai.comillas.edu")) {
 
-            if (contraseña.equals("comandante")) {
+            if (contraseña.equals("camarada")) {
 
                 showMessageDialog(InicioSesion.this, "INICIO CORRECTO", "PASAR", JOptionPane.OK_OPTION);
+                new PantallaUsuario();
+                setVisible(false);
 
             } else {
 
@@ -231,7 +233,7 @@ public class InicioSesion extends JFrame {
 
         } else {
 
-            if (contraseña.equals("comandante")) {
+            if (contraseña.equals("camarada")) {
 
                 showMessageDialog(InicioSesion.this, "CORREO NO ESTA EN BASE DE DATOS", "NO PASAR", JOptionPane.ERROR_MESSAGE);
                 correoField.requestFocus();

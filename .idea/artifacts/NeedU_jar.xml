@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NeedU:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NeedU_jar</output-path>
+    <root id="archive" name="NeedU.jar">
+      <element id="module-output" name="NeedU" />
+    </root>
+  </artifact>
+</component>

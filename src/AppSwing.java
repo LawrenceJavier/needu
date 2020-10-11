@@ -12,7 +12,7 @@ public class AppSwing extends JFrame{
     InicioSesion inicioSesion;
 
     static public void main(String[] args){
-        new AppSwing();
+        new PantallaUsuario();
     }
 
     public AppSwing(){

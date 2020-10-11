@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.io.File;
 import java.net.URL;
 
 import static javax.swing.JOptionPane.showMessageDialog;
@@ -15,7 +16,7 @@ public class InicioSesion extends JFrame {
     JTextField correoField;
     JLabel iniciarSesionLabel,correoLabel,contraseñaLabel,vacio1Label,vacio2Label,vacio3Label;
     JButton entrarBoton,olvidarContraseñaBoton;
-    JPanel centroPanel,centroPanelRegistro,superiorPanel,centroPanelOlvidar,centroPanelOk;
+    JPanel centroPanel,centroPanelRegistro,superiorPanel,centroPanelOlvidar,centroPanelOk,inferiorPanel;
     JPasswordField contraseñaField;
 
     JLabel introLabel,vacio4Label,vacio5Label,vacio6Label,vacio7Label,vacio8Label,vacio9Label,vacio10Label;
@@ -25,12 +26,14 @@ public class InicioSesion extends JFrame {
     JLabel revisarLabel;
     JButton revisarBoton;
 
+    JLabel descripcionLabel1,descripcionLabel2,descripcionLabel3;
+
     public InicioSesion(){
 
         ventana = new JFrame();
 
         this.setLayout(new BorderLayout());
-        this.setResizable(false);
+        this.setResizable(true);
         this.setMinimumSize(new Dimension(300,500));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -39,7 +42,9 @@ public class InicioSesion extends JFrame {
         superiorPanel = new JPanel();
         centroPanelOlvidar =  new JPanel();
         centroPanelOk = new JPanel();
+        inferiorPanel = new JPanel();
 
+        inferiorPanel.setLayout(new FlowLayout());
         centroPanelRegistro.setLayout(new GridLayout(10,1));
         superiorPanel.setLayout(new GridLayout(1,5));
         centroPanelOlvidar.setLayout(new GridLayout(10,1));
@@ -66,6 +71,11 @@ public class InicioSesion extends JFrame {
         vacio10Label = new JLabel();
         revisarLabel = new JLabel("Revise su correo electronico");
 
+        descripcionLabel1 = new JLabel();
+        descripcionLabel2 = new JLabel();
+        descripcionLabel3 = new JLabel();
+
+
         entrarBoton = new JButton("ENTRAR");
         olvidarContraseñaBoton = new JButton("OLVIDE MI CONTRASEÑA");
         revisarBoton = new JButton("VOLVER");
@@ -73,6 +83,15 @@ public class InicioSesion extends JFrame {
         introLabel = new JLabel("Introduzca Correo Electronico");
         introText = new JTextField();
         enviarBoton = new JButton("Reestablecer Contraseña");
+
+
+
+        ImageIcon logo = new ImageIcon("resources"+ File.separator+"logo.jpeg");
+        JLabel logoLabel = new JLabel(logo);
+        logoLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+
+
 
         revisarBoton.addActionListener(new ActionListener() {
             @Override
@@ -164,12 +183,22 @@ public class InicioSesion extends JFrame {
         centroPanelOk.add(revisarLabel);
         centroPanelOk.add(revisarBoton);
 
+        superiorPanel.add(logoLabel);
+        superiorPanel.add(new JLabel());
+        superiorPanel.add(new JLabel());
+        superiorPanel.add(new JLabel());
+        superiorPanel.add(new JLabel());
+
+
+
         centroPanel.add(centroPanelRegistro,"Registro");
         centroPanel.add(centroPanelOlvidar,"Olvidar");
         centroPanel.add(centroPanelOk,"Revisar");
 
         CardLayout cardLayout = (CardLayout) centroPanel.getLayout();
         cardLayout.show(centroPanel, "Registro");
+
+
 
         this.add(centroPanel, BorderLayout.CENTER);
         this.add(superiorPanel,BorderLayout.NORTH);

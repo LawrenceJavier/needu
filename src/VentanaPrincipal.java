@@ -396,9 +396,6 @@ public class VentanaPrincipal extends JFrame{
         JLabel etiqueta1 = new JLabel(iconoWalla);
         pnlCentral.add(etiqueta1);
 
-        pnlCentral.setBackground(Color.WHITE);
-        pnlCentral.setVisible(true);
-
         pnlNorte = new JPanel();
         pnlNorte.setLayout(new GridLayout(1,8));
         ImageIcon icono1= new ImageIcon("resources"+ File.separator+"logo.jpeg");
@@ -443,12 +440,16 @@ public class VentanaPrincipal extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
 
+                cardLayout1.show(panelCentral, "ConfUser");
+
             }
         });
 
         boton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                cardLayout1.show(panelCentral, "Conf");
 
             }
         });
@@ -460,9 +461,134 @@ public class VentanaPrincipal extends JFrame{
     }
 
     private void perfil() {
+
+        JPanel panelCentralPerfil = new JPanel();
+        JPanel panelaux = new JPanel();
+        JButton botonInfoBasica,botonInfoPrivada,botonFotoPerfil,botonAnunciosPublicados,botonAtras;
+        panelCentralPerfil.setLayout(new GridLayout(5,1));
+        panelaux.setLayout(new GridLayout(1,3));
+
+        botonAnunciosPublicados = new JButton("Ver Anuncios Publicados");
+        botonInfoBasica = new JButton("Informacion Basica");
+        botonInfoPrivada = new JButton("Informacion Privada");
+        botonFotoPerfil = new JButton("Foto de perfil");
+        botonAtras = new JButton("Atras");
+
+        botonAnunciosPublicados.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        botonAtras.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                cardLayout1.show(panelCentral, "Usuario");
+
+            }
+        });
+
+        botonFotoPerfil.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        botonInfoBasica.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        botonInfoPrivada.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        panelCentralPerfil.add(botonInfoBasica);
+        panelCentralPerfil.add(botonInfoPrivada);
+        panelCentralPerfil.add(botonFotoPerfil);
+        panelCentralPerfil.add(botonAnunciosPublicados);
+
+        panelaux.add(botonAtras);
+        panelaux.add(new JLabel());
+        panelaux.add(new JLabel());
+        panelCentralPerfil.add(panelaux);
+
+        panelCentral.add(panelCentralPerfil,"ConfUser");
+
     }
 
     private void configuracion() {
+
+        JPanel panelCentralConf = new JPanel();
+        JPanel panelaux = new JPanel();
+        JButton botonModoUser,botonMetodoPago,botonCerrarSesion,botonEliminarCuenta,botonAtras;
+
+        panelCentralConf.setLayout(new GridLayout(5,1));
+        panelaux.setLayout(new GridLayout(1,3));
+
+        botonCerrarSesion = new JButton("Cerrar Sesion");
+        botonAtras = new JButton("Atras");
+        botonEliminarCuenta = new JButton("Eliminar Cuenta");
+        botonMetodoPago = new JButton("Metodos de Pago");
+        botonModoUser = new JButton("Tipo de Usuario");
+
+        botonCerrarSesion.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        botonAtras.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                cardLayout1.show(panelCentral, "Usuario");
+
+            }
+        });
+
+        botonEliminarCuenta.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        botonMetodoPago.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        botonModoUser.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        panelCentralConf.add(botonModoUser);
+        panelCentralConf.add(botonMetodoPago);
+        panelCentralConf.add(botonCerrarSesion);
+        panelCentralConf.add(botonEliminarCuenta);
+
+        panelaux.add(botonAtras);
+        panelaux.add(new JLabel());
+        panelaux.add(new JLabel());
+        panelCentralConf.add(panelaux);
+
+        panelCentral.add(panelCentralConf,"Conf");
+
     }
 
 }

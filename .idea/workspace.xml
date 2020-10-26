@@ -8,13 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ef14946a-6bfd-4000-8898-65c9137c0eaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeedU/InicioSesion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/InicioSesion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaRegistrarse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaRegistrarse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaRegistrarse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaRegistrarse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeedU/iniciarVentana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InicioSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InicioSesion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VentanaRegistrarse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VentanaRegistrarse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iniciarVentana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/AppSwing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/AppSwing$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/AppSwing$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/AppSwing$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/AppSwing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/AppSwing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/wallapop.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/wallapop.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppSwing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InicioSesion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PantallaUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VentanaRegistrarse.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
   </component>
   <component name="RunManager">
     <configuration name="iniciarVentana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppSwing" />
+      <option name="MAIN_CLASS_NAME" value="AppNeedU" />
       <module name="NeedU" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602433918100</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="NeedU Prueba">
+      <created>1602452356539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602452356539</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,50 +151,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1602250979265" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602434158517">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602453163029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602434158517" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602453163029" />
     <state x="146" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1602364839508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="146" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602364839508" />
-    <state x="413" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602434181471">
+    <state x="413" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602453161152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1602434181471" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1602433916825">
+    <state x="413" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1602453161152" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603708927109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602433916825" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603708927109" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1602452355204">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602452355204" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1602434240153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602434240153" />
-    <state width="1323" height="95" key="GridCell.Tab.0.bottom" timestamp="1602452255753">
+    <state width="1323" height="95" key="GridCell.Tab.0.bottom" timestamp="1603560911904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602452255753" />
-    <state width="1323" height="95" key="GridCell.Tab.0.center" timestamp="1602452255753">
+    <state width="1323" height="95" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603560911904" />
+    <state width="1323" height="95" key="GridCell.Tab.0.center" timestamp="1603560911904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602452255753" />
-    <state width="1323" height="95" key="GridCell.Tab.0.left" timestamp="1602452255753">
+    <state width="1323" height="95" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603560911904" />
+    <state width="1323" height="95" key="GridCell.Tab.0.left" timestamp="1603560911904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602452255753" />
-    <state width="1323" height="95" key="GridCell.Tab.0.right" timestamp="1602452255753">
+    <state width="1323" height="95" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603560911904" />
+    <state width="1323" height="95" key="GridCell.Tab.0.right" timestamp="1603560911904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602452255753" />
+    <state width="1323" height="95" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603560911904" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1602434278781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602434278781" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602433960594">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602452367027">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602433960594" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602452367027" />
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602251864597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -193,6 +207,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="397" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1602252029019" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1602453096631">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602453096631" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1602450129029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

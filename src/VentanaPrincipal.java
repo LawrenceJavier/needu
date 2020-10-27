@@ -16,6 +16,7 @@ public class VentanaPrincipal extends JFrame{
     CardLayout cardLayout1,cardLayout2;
     JTextField correoField;
     JPasswordField contraseñaField;
+    Usuario user;
 
     public VentanaPrincipal(){
 
@@ -167,6 +168,10 @@ public class VentanaPrincipal extends JFrame{
 
                 if(contrasena.equals(confirmarContrasena)){
                     JOptionPane.showMessageDialog(VentanaPrincipal.this,"REGISTRADO CON EXITO");
+                    //user.setApellidos(apellidos);
+                    //user.setNombre(nombre);          HAY QUE COMPORBAR QE NI ESTE VACIO NI NADA POR eL ESTILO
+                    //user.setCorreoElec(correoElectronico);
+                    //user.setContraseña(contrasena);
                     cardLayout1.show(panelCentral, "Usuario");
                     cardLayout2.show(panelNorte,"Usuario");
 
@@ -352,6 +357,7 @@ public class VentanaPrincipal extends JFrame{
                 showMessageDialog(VentanaPrincipal.this, "INICIO CORRECTO", "PASAR", JOptionPane.OK_OPTION);
                 cardLayout1.show(panelCentral, "Usuario");
                 cardLayout2.show(panelNorte,"Usuario");
+                //sacar info de base de datos para el usuario
 
             } else {
 
@@ -397,10 +403,25 @@ public class VentanaPrincipal extends JFrame{
         pnlCentral.add(etiqueta1);
 
         pnlNorte = new JPanel();
-        pnlNorte.setLayout(new GridLayout(1,8));
+        pnlNorte.setLayout(new GridLayout(1,6));
         ImageIcon icono1= new ImageIcon("resources"+ File.separator+"logo.jpeg");
         JLabel etiqueta2 = new JLabel(icono1);
         pnlNorte.add(etiqueta2);
+
+        JComboBox tipoAnuncio = new JComboBox();
+        tipoAnuncio.addItem("Anuncios");
+        tipoAnuncio.addItem("Trabajos");
+
+        tipoAnuncio.setRenderer(new DefaultListCellRenderer() {
+            @Override
+            public void paint(Graphics g) {
+                setBackground(Color.BLACK);
+                setForeground(Color.WHITE);
+                super.paint(g);
+            }
+        });
+
+        pnlNorte.add(tipoAnuncio);
 
         pnlNorte.setBackground(Color.BLACK);
 
@@ -454,17 +475,13 @@ public class VentanaPrincipal extends JFrame{
             }
         });
 
-
-
-
-
     }
 
     private void perfil() {
 
         JPanel panelCentralPerfil = new JPanel();
         JPanel panelaux = new JPanel();
-        JButton botonInfoBasica,botonInfoPrivada,botonFotoPerfil,botonAnunciosPublicados,botonAtras;
+        JButton botonInfoBasica,botonInfoPrivada,botonFotoPerfil,botonAnunciosPublicados,botonAtras,botonPerfil;
         panelCentralPerfil.setLayout(new GridLayout(5,1));
         panelaux.setLayout(new GridLayout(1,3));
 
@@ -477,7 +494,8 @@ public class VentanaPrincipal extends JFrame{
         botonAnunciosPublicados.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                mostrarAnuncios();
+                cardLayout1.show(panelCentral, "MostrarAnuncios");
             }
         });
 
@@ -493,22 +511,24 @@ public class VentanaPrincipal extends JFrame{
         botonFotoPerfil.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                fotoPerfil();
+                cardLayout1.show(panelCentral,"MostrarFoto");
             }
         });
 
         botonInfoBasica.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                infoBasica();
+                cardLayout1.show(panelCentral,"InfoBasica");
             }
         });
 
         botonInfoPrivada.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
-            }
+                infoPrivada();
+                cardLayout1.show(panelCentral,"InfoPrivada");            }
         });
 
         panelCentralPerfil.add(botonInfoBasica);
@@ -525,11 +545,27 @@ public class VentanaPrincipal extends JFrame{
 
     }
 
+    private void infoPrivada() {
+
+    }
+
+    private void infoBasica() {
+
+    }
+
+    private void fotoPerfil() {
+
+    }
+
+    private void mostrarAnuncios() {
+
+    }
+
     private void configuracion() {
 
         JPanel panelCentralConf = new JPanel();
         JPanel panelaux = new JPanel();
-        JButton botonModoUser,botonMetodoPago,botonCerrarSesion,botonEliminarCuenta,botonAtras;
+        JButton botonAyuda,botonMetodoPago,botonCerrarSesion,botonEliminarCuenta,botonAtras;
 
         panelCentralConf.setLayout(new GridLayout(5,1));
         panelaux.setLayout(new GridLayout(1,3));
@@ -538,12 +574,13 @@ public class VentanaPrincipal extends JFrame{
         botonAtras = new JButton("Atras");
         botonEliminarCuenta = new JButton("Eliminar Cuenta");
         botonMetodoPago = new JButton("Metodos de Pago");
-        botonModoUser = new JButton("Tipo de Usuario");
+        botonAyuda = new JButton("Ayuda");
 
         botonCerrarSesion.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                cardLayout1.show(panelCentral, "Inicio");
+                cardLayout2.show(panelNorte,"Vacio");
             }
         });
 
@@ -559,26 +596,29 @@ public class VentanaPrincipal extends JFrame{
         botonEliminarCuenta.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                //eliminar usuario de base de datos
+                cardLayout1.show(panelCentral, "Inicio");
+                cardLayout2.show(panelNorte,"Vacio");
             }
         });
 
         botonMetodoPago.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                metodoPago();
+                cardLayout1.show(panelCentral,"MetodoPago");
             }
         });
 
-        botonModoUser.addActionListener(new ActionListener() {
+        botonAyuda.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                //JDIALOG CON LA AYUDA
             }
         });
 
-        panelCentralConf.add(botonModoUser);
         panelCentralConf.add(botonMetodoPago);
+        panelCentralConf.add(botonAyuda);
         panelCentralConf.add(botonCerrarSesion);
         panelCentralConf.add(botonEliminarCuenta);
 
@@ -588,6 +628,11 @@ public class VentanaPrincipal extends JFrame{
         panelCentralConf.add(panelaux);
 
         panelCentral.add(panelCentralConf,"Conf");
+
+    }
+
+    private void metodoPago() {
+
 
     }
 

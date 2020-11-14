@@ -7,7 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef14946a-6bfd-4000-8898-65c9137c0eaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$26.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$27.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$28.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$29.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$30.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$31.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$32.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$33.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$34.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$36.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$37.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$38.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$39.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$40.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$41.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$42.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$43.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$44.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$45.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$46.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$47.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$48.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$49.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$50.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$51.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$52.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$53.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$54.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$55.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$56.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$57.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$58.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$59.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$60.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$61.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mantenimiento-ascensores-madrid-800x480.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/perfil2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/trabajo1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/Anuncio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/Anuncio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/Usuario.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$11.class" afterDir="false" />
@@ -23,6 +66,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$20.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$21.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$23.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$5.class" afterDir="false" />
@@ -31,6 +75,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeedU/VentanaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Anuncio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anuncio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VentanaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603711108428</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="NeedU Prueba">
+      <created>1603813135137</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603813135137</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +243,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602453163029" />
+    <state x="466" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605281706286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1605281706286" />
     <state x="146" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1603710091852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -202,69 +259,81 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603708927109" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1603711107013">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1603813133047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603711107013" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603813133047" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1602434240153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602434240153" />
-    <state width="1323" height="95" key="GridCell.Tab.0.bottom" timestamp="1603813065359">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1605282841479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603813065359" />
-    <state width="1323" height="95" key="GridCell.Tab.0.center" timestamp="1603813065359">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605282841479" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1605282841479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603813065359" />
-    <state width="1323" height="95" key="GridCell.Tab.0.left" timestamp="1603813065359">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605282841479" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1605282841479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603813065359" />
-    <state width="1323" height="95" key="GridCell.Tab.0.right" timestamp="1603813065359">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605282841479" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1605282841479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="95" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603813065359" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603813034221">
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605282841479" />
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom" timestamp="1605123877853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603813034221" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1603813034221">
+    <state width="1323" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605123877853" />
+    <state width="1323" height="236" key="GridCell.Tab.1.center" timestamp="1605123877853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603813034221" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1603813034221">
+    <state width="1323" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605123877853" />
+    <state width="1323" height="236" key="GridCell.Tab.1.left" timestamp="1605123877853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603813034221" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1603813034221">
+    <state width="1323" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605123877853" />
+    <state width="1323" height="236" key="GridCell.Tab.1.right" timestamp="1605123877853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603813034221" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1602434278781">
+    <state width="1323" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605123877853" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1605377837321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602434278781" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603711123867">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605377837321" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603813144257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603711123867" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603813144257" />
+    <state x="374" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605225225823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="374" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1605225225823" />
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602251864597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1602251864597" />
+    <state x="676" y="0" width="697" height="735" maximized="true" key="dock-window-1" timestamp="1605273012542">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="676" y="0" width="697" height="735" maximized="true" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1605273012542" />
+    <state x="676" y="0" width="697" height="735" key="dock-window-2" timestamp="1605281723668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="676" y="0" width="697" height="735" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1605281723668" />
     <state x="397" y="155" key="git4idea.merge.GitPullDialog" timestamp="1602252029019">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="397" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1602252029019" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1602453096631">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605225817661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602453096631" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1602450129029">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605225817661" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605224974569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602450129029" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605224974569" />
   </component>
 </project>

@@ -240,7 +240,8 @@ public class DataBase {
     *@param edad edad del paciente
     *@param dni dni del paciente
     *@param peso peso del pacientes
-    //HOlda
+    //hola
+    //adios
     */
 
     public void actualizarPrivado(String correo, String dni, String direccion, String sexo, String telefono) {

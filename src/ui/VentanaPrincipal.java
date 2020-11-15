@@ -1253,7 +1253,8 @@ public class VentanaPrincipal extends JFrame{
         correoTxt.setEnabled(false);
 
         //sacar info basica del usuario y meterla en los textfields
-
+        //hola
+        
         System.out.println(actual.getNombre());
         nombreText.setText(actual.getNombre()); //nombre del usuario iria
         apellidosText.setText(actual.getApellidos()); //apellidos del usuario iria
